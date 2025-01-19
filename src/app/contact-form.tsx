@@ -18,8 +18,10 @@ import { useState } from "react";
 export function ContactForm() {
   const [status, setStatus] = useState("");
 
-  async function handleSubmit(e) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  async function handleSubmit(e: any) {
     e.preventDefault();
+
     setStatus("")
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
