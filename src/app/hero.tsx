@@ -1,9 +1,9 @@
 "use client";
 
-import { LampContainer } from "@/components/ui/lamp";
-import { WavyBackground } from "@/components/ui/wavy-background";
+// import { LampContainer } from "@/components/ui/lamp";
+// import { WavyBackground } from "@/components/ui/wavy-background";
 // import Image from "next/image";
-import { Input, Button, Typography } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 
 
 function Hero() {
@@ -18,8 +18,7 @@ function Hero() {
         <Typography
           variant="h1"
           color="blue-gray"
-          className="mb-4 lg:text-9xl text-center  lg:text-end  text-5xl "
-        >
+          className="mb-4 lg:text-9xl text-center  lg:text-end  text-5xl " placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
           Hi, I&apos;m Rounak <br /> Kumar Arya!
         </Typography>
 
@@ -27,8 +26,7 @@ function Hero() {
         <div className="flex text-center lg:text-start  w-fit">
           <Typography
             variant="lead"
-            className="mb-4 inline-flex !text-gray-500 lg:ml-10 lg:mr-48"
-          >
+            className="mb-4 inline-flex !text-gray-500 lg:ml-10 lg:mr-48" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             A passionate web developer based in India. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development, where creativity meets functionality.
@@ -41,7 +39,7 @@ function Hero() {
               Your email
             </Typography>
             <div className="mb-2 flex flex-col gap-4 align-center justify-around md:flex-row"> */}
-          {/* @ts-ignore */}
+
           {/* <Input color="gray" label="Enter your email" size="md" />
               <Button color="gray" className="w-full px-4 md:w-[12rem]">
                 require offer
