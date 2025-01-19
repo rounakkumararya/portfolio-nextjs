@@ -269,7 +269,7 @@ export function NavbarWithMegaMenu() {
 
                         <Button className="flex align-middle gap-1 items-center text-center" variant="text" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}><FaGithub size={18} />Github</Button>
                     </Link>
-                    <Link href="" target="_blank">
+                    <Link href="../Rounak-Kumar-Arya.pdf" target="_blank">
                         <Button className="flex align-middle gap-1 items-center text-center" color="gray" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}><HiDocumentArrowDown size={18} /> Resume</Button>
                     </Link>
                 </div>
