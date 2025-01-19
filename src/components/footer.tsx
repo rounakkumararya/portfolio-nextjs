@@ -1,4 +1,4 @@
-import { Typography, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 
 // const LINKS = ["Home", "About Us", "Blog", "Service"];
 const CURRENT_YEAR = new Date().getFullYear();
