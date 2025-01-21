@@ -4,7 +4,6 @@
 import { WobbleCard } from "@/components/ui/wobble-card";
 import { Typography } from "@material-tailwind/react";
 import Image from "next/image";
-// import Link from "next/link";
 
 // const PROJECTS = [
 //   {
@@ -74,7 +73,7 @@ export function Projects() {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
         <WobbleCard
-          containerClassName="col-span-1 lg:col-span-2 h-full bg-gray-200 min-h-[500px] lg:min-h-[300px]"
+          containerClassName="cursor-pointer col-span-1 lg:col-span-2 h-full bg-gray-200 min-h-[500px] lg:min-h-[300px]"
           className=""
         >
           <div className="max-w-xs">
@@ -86,25 +85,28 @@ export function Projects() {
             </p>
           </div>
           <Image
-            src="/linear.png"
+            src="/image/Spotify.png"
             width={500}
             height={500}
             alt="linear demo image"
-            className="absolute -right-4 lg:-right-[10%]  -bottom-10 object-contain rounded-2xl"
+            className="absolute -right-4 lg:-right-[0%]  -bottom-10 object-contain rounded-2xl"
           />
         </WobbleCard>
-        <WobbleCard containerClassName="col-span-1 bg-gray-300  min-h-[300px]">
-          <h2 className="max-w-80  text-left  text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black">
-            No shirt, no shoes, no weapons.
+        <WobbleCard containerClassName=" cursor-pointer col-span-1 bg-gray-300  min-h-[300px]">
+          <Image alt="image" width={200} height={100} src={"/image/Spotify.png"} />
+          <h2 className="max-w-80 text-center  lg:text-left  text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black">
+            No shirt, no shoes, no weaponsdvfeve
           </h2>
-          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+          <p className="mt-4 max-w-[26rem] text-center lg:text-left  text-base/6 text-neutral-200">
             If someone yells “stop!”, goes limp, or taps out, the fight is over.
           </p>
         </WobbleCard>
 
 
 
-        <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-gray-200 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+
+        <WobbleCard containerClassName="cursor-pointer col-span-1 lg:col-span-3 bg-gray-200 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+
 
           <div className="max-w-sm">
             <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black">
@@ -112,22 +114,24 @@ export function Projects() {
               wrapper today!
             </h2>
             <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-              With over 100,000 mothly active bot users, Gippity AI is the most
+              With over 100,000 monthly active bot users, Gippity AI is the most
               popular AI platform for developers.
             </p>
           </div>
           <Image
-            src="/linear.png"
-            width={400}
-            height={500}
+            src="/image/BlogHive.png"
+            width={500}
+            height={600}
             alt="linear demo image"
             className="absolute -right-10  -bottom-0 object-contain rounded-2xl"
           />
 
 
+
         </WobbleCard>
 
         <WobbleCard containerClassName="col-span-1 bg-gray-300  min-h-[300px]">
+          <Image alt="image" width={200} height={100} src={"/image/Spotify.png"} />
           <h2 className="max-w-80  text-left  text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black">
             No shirt, no shoes, no weapons.
           </h2>
@@ -145,7 +149,8 @@ export function Projects() {
           </p>
         </WobbleCard> */}
 
-        <WobbleCard containerClassName=" col-span-1   bg-gray-300  min-h-[300px]">
+        <WobbleCard containerClassName=" col-span-1 bg-gray-300  min-h-[300px]">
+          <Image alt="image" width={200} height={100} src={"/image/BlogHive.png"} />
           <h2 className="max-w-80  text-left  text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black">
             No shirt, no shoes, no weapons.
           </h2>
@@ -155,6 +160,7 @@ export function Projects() {
         </WobbleCard>
 
         <WobbleCard containerClassName="col-span-1 bg-gray-300  min-h-[300px]">
+          <Image alt="image" width={200} height={100} src={"/image/Lrn.png"} />
           <h2 className="max-w-80  text-left  text-balance  text-3xl font-semibold tracking-[-0.015em] text-black">
             No shirt, no shoes, no weapons.
           </h2>
@@ -162,9 +168,10 @@ export function Projects() {
             If someone yells “stop!”, goes limp, or taps out, the fight is over.
           </p>
         </WobbleCard>
+
         <WobbleCard containerClassName=" group  col-span-1 lg:col-span-2 h-full bg-gray-200 min-h-[500px] lg:min-h-[300px]">
           <Image
-            src="/linear.png"
+            src="/image/Lrn.png"
             width={500}
             height={500}
             alt="linear demo image"
@@ -180,6 +187,15 @@ export function Projects() {
             </p>
           </div>
 
+        </WobbleCard>
+        <WobbleCard containerClassName="col-span-1 bg-gray-300  min-h-[300px]">
+          <Image alt="image" width={200} height={100} src={"/image/lrn.png"} />
+          <h2 className="max-w-80  text-left  text-balance  text-3xl font-semibold tracking-[-0.015em] text-black">
+            No shirt, no shoes, no weapons.
+          </h2>
+          <p className="mt-4 max-w-[26rem] text-left   text-base/6 text-neutral-200">
+            If someone yells “stop!”, goes limp, or taps out, the fight is over.
+          </p>
         </WobbleCard>
       </div>
     </section>

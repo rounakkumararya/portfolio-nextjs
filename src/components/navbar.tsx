@@ -35,37 +35,44 @@ const projectMenuItems = [
     {
         title: "Spotify Clone",
         description: "Music streaming platform with chat feature and admin panel.",
-        link: "https://github.com/rounakkumararya/video_app_backend"
+        link: "https://github.com/rounakkumararya/video_app_backend",
+        image: "/image/Spotify.png"
     },
     {
         title: "Lrn",
         description: "Learning Management System with admin panel.",
-        link: "https://github.com/rounakkumararya/video_app_backend"
+        link: "https://github.com/rounakkumararya/video_app_backend",
+        image: "/image/BlogHive.png"
     },
     {
         title: "BlogHive",
         description: "Blogging Platform with admin panel.",
-        link: "https://github.com/rounakkumararya/video_app_backend"
+        link: "https://github.com/rounakkumararya/video_app_backend",
+        image: "/image/Lrn.png"
     },
     {
         title: "Estate",
         description: "Real estate platform with admin panel.",
-        link: "https://github.com/rounakkumararya/video_app_backend"
+        link: "https://github.com/rounakkumararya/video_app_backend",
+        image: "/image/Spotify.png"
     },
     {
         title: "Youtube backend",
         description: "Video streaming app backend.",
-        link: "https://github.com/rounakkumararya/video_app_backend"
+        link: "https://github.com/rounakkumararya/video_app_backend",
+        image: "/image/BlogHive.png"
     },
     {
         title: "Little Lemon",
         description: "Capstone Project for Meta Frontend Specialization.",
-        link: "https://github.com/rounakkumararya/video_app_backend"
+        link: "https://github.com/rounakkumararya/video_app_backend",
+        image: "/image/Spotify.png"
     },
     {
         title: "Todo App",
         description: "Simple todo app with admin panel.",
-        link: "/"
+        link: "/",
+        image: "/image/BlogHive.png"
     },
 
 ];
@@ -74,7 +81,7 @@ function ProjectMenu() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
     const renderItems = projectMenuItems.map(
-        ({ title, description, link }, key) => (
+        ({ title, description, image, link }, key) => (
             <Link href={link} key={key} target="_blank">
                 <MenuItem className="flex  items-center gap-1 rounded-lg" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                     {/* <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
@@ -83,7 +90,11 @@ function ProjectMenu() {
                             strokeWidth: 2,
                             className: "h-6 text-gray-900 w-6",
                         })}
+                            .
                     </div> */}
+                    <div className="">
+                        <Image width={100} height={100} alt={title} src={image}></Image>
+                    </div>
                     <div >
                         <Typography
                             variant="h6"
@@ -112,7 +123,7 @@ function ProjectMenu() {
                 allowHover={true}
             >
                 <MenuHandler>
-                    <Typography as="a" href="#projects" variant="small" className="font-medium" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                    <Typography as="a" href="/#projects" variant="small" className="font-medium" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                         <ListItem
                             className="group flex items-center gap-2 py-2    pr-4 font-medium text-gray-900"
                             selected={isMenuOpen || isMobileMenuOpen}
@@ -152,7 +163,7 @@ function NavList() {
             <ProjectMenu />
             <Typography
                 as="a"
-                href="#contact"
+                href="/#contact"
                 variant="small"
                 color="blue-gray"
                 className="font-medium" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
@@ -192,7 +203,7 @@ function AboutMenu() {
         <React.Fragment>
             <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
                 <MenuHandler>
-                    <Typography as="a" href="#about" variant="small" className="font-normal" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                    <Typography as="a" href="/#about" variant="small" className="font-normal" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                         <MenuItem className="group hidden items-center gap-2 font-medium text-blue-gray-900 lg:flex lg:rounded-full" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                             <GiAstronautHelmet className="group-hover:text-red-600 group-hover:animate-bounce" />{" "}
                             About Me{" "}
