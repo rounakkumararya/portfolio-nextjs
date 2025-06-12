@@ -33,11 +33,11 @@ const Technologies = () => {
         <section className="py-8 px-8 lg:py-20">
             <div className="container mx-auto grid items-center place-items-center">
                 <div className="text-center">
-                    <Typography variant="h6" className="mb-4 uppercase !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                        POPULAR TECHNOLOGIES
+                    <Typography variant="h6" className="mb-4  !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                        Tools and Technologies
                     </Typography>
                     <Typography variant="h2" color="blue-gray" className="mb-4" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                        Proficient in latest development<br /> technologies
+                        Proficient in latest development<br /> technologies.
                     </Typography>
                 </div>
                 <div className="flex flex-wrap items-center justify-center gap-6 mt-8">

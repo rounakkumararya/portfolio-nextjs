@@ -35,7 +35,7 @@ const RESUME_ITEMS = [
 
 export function Resume() {
     return (
-        <section className="px-8 py-24">
+        <section className="px-8 py-24" id="about">
             <div className="container mx-auto mb-20 text-center">
                 <Typography color="blue-gray" className="mb-2 font-bold uppercase" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                     about me
