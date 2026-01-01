@@ -113,10 +113,10 @@ export function Projects() {
         <WobbleCard containerClassName=" cursor-pointer col-span-1 bg-gray-300  min-h-[300px]">
           <Image alt="image" width={200} height={100} src={"/image/Spotify.png"} />
           <h2 className="max-w-80 text-center  lg:text-left  text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black">
-            No shirt, no shoes, no weaponsdvfeve
+            Lrn - Learning Management System
           </h2>
           <p className="mt-4 max-w-[26rem] text-center lg:text-left  text-base/6 text-neutral-200">
-            If someone yells “stop!”, goes limp, or taps out, the fight is over.
+            A learning management system for online courses.
           </p>
           <div className=" m-2 absolute top-4 right-4">
             <div className="flex gap-3">

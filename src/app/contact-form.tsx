@@ -71,13 +71,12 @@ export function ContactForm() {
               <Typography
                 variant="lead"
                 className="mx-auto mb-8 text-base !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}              >
-                Fill up the form and our Team will get back to you within 24
-                hours.
+                Fill out the form, and I will get back to you within 24 hours.
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <Typography variant="h6" color="white" className="mb-2" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                  +91 8757426445
+                  +49 15510866433
                 </Typography>
               </div>
               <div className="flex my-2 gap-5">

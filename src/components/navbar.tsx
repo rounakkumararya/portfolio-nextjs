@@ -35,19 +35,19 @@ const projectMenuItems = [
     {
         title: "Spotify Clone",
         description: "Music streaming platform with chat feature and admin panel.",
-        link: "https://github.com/rounakkumararya/video_app_backend",
+        link: "https://github.com/rounakkumararya/spotify-clone",
         image: "/image/Spotify.png"
     },
     {
         title: "Lrn",
         description: "Learning Management System with admin panel.",
-        link: "https://github.com/rounakkumararya/video_app_backend",
+        link: "https://github.com/rounakkumararya/mern_lms",
         image: "/image/BlogHive.png"
     },
     {
         title: "BlogHive",
         description: "Blogging Platform with admin panel.",
-        link: "https://github.com/rounakkumararya/video_app_backend",
+        link: "https://github.com/rounakkumararya/blog-website",
         image: "/image/Lrn.png"
     },
     {
@@ -65,13 +65,13 @@ const projectMenuItems = [
     {
         title: "Little Lemon",
         description: "Capstone Project for Meta Frontend Specialization.",
-        link: "https://github.com/rounakkumararya/video_app_backend",
+        link: "https://github.com/rounakkumararya/little-lemon-capstone",
         image: "/image/Spotify.png"
     },
     {
         title: "Todo App",
         description: "Simple todo app with admin panel.",
-        link: "/",
+        link: "https://github.com/rounakkumararya/todo_app",
         image: "/image/BlogHive.png"
     },
 
@@ -187,7 +187,7 @@ function AboutMenu() {
                     Rounak kumar arya
                 </Typography>
                 <Typography variant="small" color="gray" className="font-normal" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                    Tech enthusiast and lifelong learner, driven by a passion for coding, exploring cutting-edge technologies, and creating impactful digital solutions. Always up-to-date with the latest trends in design, development, and beyond.
+                    A physics enthusiast and lifelong learner, driven by curiosity about the fundamental laws of nature. Currently a Master’s student in Physics at the University of Bremen, with a strong interest in theoretical foundations, computational modeling, and experimental techniques to understand complex physical systems.
                 </Typography>
 
             </div>
@@ -280,7 +280,7 @@ export function NavbarWithMegaMenu() {
 
                         <Button className="flex align-middle gap-1 items-center text-center" variant="text" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}><FaGithub size={18} />Github</Button>
                     </Link>
-                    <Link href="../Rounak-Kumar-Arya.pdf" target="_blank">
+                    <Link href="../Rounak-Kumar-Arya_.pdf" target="_blank">
                         <Button className="flex align-middle gap-1 items-center text-center" color="gray" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}><HiDocumentArrowDown size={18} /> Resume</Button>
                     </Link>
                 </div>

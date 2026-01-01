@@ -13,24 +13,21 @@ import { ResumeItem } from "@/components";
 const RESUME_ITEMS = [
     {
         icon: RocketLaunchIcon,
-        children: "Bachelor of Science in Physics",
+        children: "Master of Science in Physics",
     },
     {
         icon: PuzzlePieceIcon,
-        children: "Certified Web Developer ",
+        children: "Bachelor of Science in Physics",
     },
     {
         icon: CursorArrowRaysIcon,
-        children: "Frontend Framework Proficiency Certification",
+        children: "Full-Stack Web Development",
     },
     {
         icon: PencilIcon,
         children: "UI/UX Design Certification",
-    },
-    {
-        icon: PencilIcon,
-        children: "Full-stack MERN certification",
     }
+
 ];
 
 export function Resume() {
@@ -51,9 +48,7 @@ export function Resume() {
                         My Resume
                     </Typography>
                     <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                        Highly skilled and creative Web Developer with
-                        experience in crafting visually stunning and functionally robust
-                        websites and web applications.I&apos;m a passionate MERN stack developer specializing in building dynamic, responsive web applications. Experienced with MongoDB, Express.js, React, and Node.js, I focus on delivering clean, scalable code and seamless user experiences. I thrive on solving complex problems and continuously learning new technologies to stay ahead.
+                        A highly motivated and analytical physics student with a strong foundation in classical and quantum mechanics, statistical physics, and computational methods. Currently pursuing a Master’s degree in Physics at the University of Bremen, with a focus on computational physics and nanostructures. Experienced in scientific programming, numerical simulations, and data analysis, including spectroscopy-based research and physics-driven modeling projects. Passionate about solving complex physical problems, developing reproducible computational workflows, and continuously expanding expertise through research, experimentation, and interdisciplinary learning.
                     </Typography>
 
                 </div>

@@ -27,9 +27,7 @@ function Hero() {
           <Typography
             variant="lead"
             className="mb-4 inline-flex !text-gray-500 lg:ml-10 lg:mr-48" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-            A passionate web developer based in India. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
-            development, where creativity meets functionality.
+            A passionate physicist driven by curiosity about the fundamental workings of the universe. My work lies at the intersection of theory, computation, and experimentation, transforming physical concepts into quantitative understanding.
           </Typography>
           {/* <div className="">
             <Typography
