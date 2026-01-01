@@ -10,22 +10,22 @@ export function Testimonial() {
 
   const testimonials = [
     {
-      name: "Michael - Technical Manager",
-      review: "I had the pleasure of working with Lily on a critical web development project, and I can confidently say that their expertise and professionalism exceeded my expectations.",
-      field: "Mobile App Development",
-      role: "Marketing @ APPLE INC."
+      name: "Teammates - Astra Rocketery Challenge",
+      review: "He is an exceptional team player with a keen eye for detail and a relentless drive for excellence. His contributions were instrumental in our project's success, and his positive attitude made working with him a pleasure.",
+      role: "Teammates @ Astra Rocketery Challenge",
+      field: "Rocket Design & Development"
     },
     {
-      name: "Ananya - Technical Manager",
-      review: "Lorem Discover what clients have to say about their experiences working with me. My client&apos;s satisfaction is my greatest achievement!",
-      field: "Frontend Website Development",
-      role: "Developer - Apple"
+      name: "Ananya - Friend & Collaborator",
+      review: "Discover what clients have to say about their experiences working with me. My client&apos;s satisfaction is my greatest achievement!",
+      field: "Ai Research & Development",
+      role: "Student @ Btu Cottbus"
     },
     {
-      name: "Michael - Technical Manager",
+      name: "Adarsh - Friend & Collaborator",
       review: "I had the pleasure of working with Lily on a critical web development project, and I can confidently say that their expertise and professionalism exceeded my expectations.",
-      field: "Mobile App Development",
-      role: "Marketing @ APPLE INC."
+      field: "Computer Science",
+      role: "Collaborator @ Open Source Projects"
     }
   ]
 
@@ -37,13 +37,12 @@ export function Testimonial() {
       <div className="container max-w-screen-lg mx-auto">
         <div className="container mx-auto mb-20 text-center">
           <Typography variant="h2" color="blue-gray" className="mb-4" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-            What Clients Say
+            What Friends & Peers Say
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-            Discover what clients have to say about their experiences working
-            with me. My client&apos;s satisfaction is my greatest achievement!
+            Hear from friends, collaborators, and people who know me about their experiences working with me. Their trust and feedback are my greatest motivation.
           </Typography>
         </div>
         <Card color="transparent" shadow={false} className="py-8 lg:flex-row" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
@@ -70,7 +69,7 @@ export function Testimonial() {
               <div className="flex items-center gap-4">
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar1.jpg"
+                  src="/image/avatar1.png"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${active === 1 ? "opacity-100" : "opacity-50"}`}
@@ -78,7 +77,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar2.jpg"
+                  src="/image/avatar2.png"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${active === 2 ? "opacity-100" : "opacity-50"}`}
@@ -86,7 +85,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100" />
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar3.jpg"
+                  src="/image/avatar3.png"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${active === 3 ? "opacity-100" : "opacity-50"}`}
@@ -98,7 +97,7 @@ export function Testimonial() {
                 width={768}
                 height={768}
                 alt="testimonial image"
-                src={`/image/avatar${active}.jpg`}
+                src={`/image/avatar${active}.png`}
                 className="h-full rounded-lg w-full object-cover"
               />
             </div>

@@ -47,7 +47,7 @@ export function Resume() {
                     <Typography variant="h2" color="blue-gray" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                         My Resume
                     </Typography>
-                    <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                    <Typography className="mb-4 mt-3 w-11/12 font-normal !text-gray-500" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                         A highly motivated and analytical physics student with a strong foundation in classical and quantum mechanics, statistical physics, and computational methods. Currently pursuing a Master’s degree in Physics at the University of Bremen, with a focus on computational physics and nanostructures. Experienced in scientific programming, numerical simulations, and data analysis, including spectroscopy-based research and physics-driven modeling projects. Passionate about solving complex physical problems, developing reproducible computational workflows, and continuously expanding expertise through research, experimentation, and interdisciplinary learning.
                     </Typography>
 

@@ -33,6 +33,24 @@ import { GiPush } from "react-icons/gi";
 
 const projectMenuItems = [
     {
+        title: "Astra Rocketry Challenge",
+        description: "Trajectory analysis & hardware engineering for D-class motor vehicles.",
+        link: "#", // Add link if available
+        image: "/image/rocket.jpg"
+    },
+    {
+        title: "Solar System Simulation",
+        description: "N-body problem simulation using Velocity Verlet algorithm in Python.",
+        link: "https://github.com/rounakkumararya/solar-system-sim",
+        image: "/image/n-body.png"
+    },
+    {
+        title: "DOAS Data Pipeline",
+        description: "Python/SciPy pipeline for quantifying stratospheric NO2 concentrations.",
+        link: "#",
+        image: "/image/physics-lab.png"
+    },
+    {
         title: "Spotify Clone",
         description: "Music streaming platform with chat feature and admin panel.",
         link: "https://github.com/rounakkumararya/spotify-clone",
@@ -222,13 +240,12 @@ function AboutMenu() {
 
                         className="col-span-3  grid h-full w-full place-items-center rounded-md" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                    >
                         <Image
-                            width={500}
-                            height={500}
+                            width={200}
+                            height={200}
 
                             alt="team work"
                             src="/image/about-hover1.jpg"
-                            className="cover grayscale  transition hover:grayscale-0 d "
-                            quality={1}
+                            className="h-full w-full object-cover grayscale transition hover:grayscale-0"
                         />
 
                     </Card>
